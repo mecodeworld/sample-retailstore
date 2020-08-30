@@ -4,13 +4,12 @@ Sample retail store java application based on command line input
 Instruction to run the application:
 
 1. clone this repository.
-2. To download the dependencies please run the following command -> mvn clean install   
-3. Run the main class
-      Entry point class is : RetailStoreApplication
+2. After that to download the dependencies mentioned in the pom.xml. please run the following command -> mvn clean install   
+3. Run the main class : RetailStoreApplication
 4. please consider the following points before testing the application
 
-  A. Application is using dummy data for processing. which is returning from service:IProductDataService
-  B. There are 4 different options provided for user. 
+  A. Application is using dummy data for processing. which is returning from the service: IProductDataService
+  B. There are 4 different options provided for the user. 
   C. provide the correct option to execute the functionality.
   
   Application Views:
@@ -28,13 +27,13 @@ Instruction to run the application:
           Product id:2, Name:product-A2, product code:ITEM-A2, price: 10.0, Category:A
       
     3. If you choose Option 2 selected then Show totalsale view is:
-          case 1: if there is already some products are checkout then ->
+          case 1: if there are some products that are already checked out then ->
                     Total Sales:
                     Subtotal Amount: 5.0
                     Total Sales tax: 0.5
                     Total Amount: 5.5
                       
-          case 2: if no products are checkout yet ->
+          case 2: if no products are checked out yet ->
             show message like : "NO SALE"
      
     4. If you choose Option 3 selected then Checkout view is:
@@ -43,7 +42,7 @@ Instruction to run the application:
         DO YOU WANT TO CHECKOUT? Y/N 
           y
         Checkout Details:
-        Your Order Id is: 2
+        Your Order Id is: 1
         Checkout products are: 
         Product id:1, Name:product-A1, product code:ITEM-A1, price: 5.0, Category:A Applicable SalesTax: 0.5
         Product id:6, Name:product-B1, product code:ITEM-B1, price: 5.0, Category:B Applicable SalesTax: 1.0
