@@ -6,13 +6,14 @@ Instruction to run the application:
 1. clone this repository.
 2. After that to download the dependencies mentioned in the pom.xml. please run the following command -> mvn clean install   
 3. Run the main class : RetailStoreApplication
-4. please consider the following points before testing the application
 
-  A. Application is using dummy data for processing. which is returning from the service: IProductDataService
-  B. There are 4 different options provided for the user. 
-  C. provide the correct option to execute the functionality.
+please consider the following points before testing the application
+
+  A. Application is using dummy data for processing. which is returning from the service: IProductDataService</br>
+  B. There are 4 different options provided for the user. </br>
+  C. provide the correct option to execute the functionality.</br>
   
-  Application Views:
+    Application Views:
     1. Main menu view:
         MENU:
           1.Show all products
