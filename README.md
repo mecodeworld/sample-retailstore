@@ -1,4 +1,4 @@
-# sample-retailstore
+# Sample-retailstore
 Sample retail store java application based on command line input
 
 Instruction to run the application:
