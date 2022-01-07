@@ -22,12 +22,12 @@ please consider the following points before testing the application
           4.Exit
           Enter your option:
           
-    2. If you choose Option 1 selected then productDetailView is: 
+    2. If you choose Option 1 then productDetailView is: 
         All product details:
           Product id:1, Name:product-A1, product code:ITEM-A1, price: 5.0, Category:A
           Product id:2, Name:product-A2, product code:ITEM-A2, price: 10.0, Category:A
       
-    3. If you choose Option 2 selected then Show totalsale view is:
+    3. If you choose Option 2 then Show totalsale view is:
           case 1: if there are some products that are already checked out then ->
                     Total Sales:
                     Subtotal Amount: 5.0
@@ -37,7 +37,7 @@ please consider the following points before testing the application
           case 2: if no products are checked out yet ->
             show message like : "NO SALE"
      
-    4. If you choose Option 3 selected then Checkout view is:
+    4. If you choose Option 3 then Checkout view is:
         Enter product code by comma separated:
           item-a1, item-b1
         DO YOU WANT TO CHECKOUT? Y/N 
